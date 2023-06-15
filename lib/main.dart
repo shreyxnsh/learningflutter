@@ -1,6 +1,7 @@
 import "package:flutter/material.dart";
 import "package:learningflutter/widgets/alert.dart";
 import "package:learningflutter/widgets/animated_text.dart";
+import "package:learningflutter/widgets/bottom_navigation.dart";
 import "package:learningflutter/widgets/bottomsheet.dart";
 import "package:learningflutter/widgets/container_sized.dart";
 import "package:learningflutter/widgets/dimissible.dart";
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.orange
       ),
-      home: AnimatedTextWidget(),
+      home: BottomNavigationWidget(),
     );
   }
 }
