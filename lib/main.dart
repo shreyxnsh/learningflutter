@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:learningflutter/widgets/alert.dart";
 import "package:learningflutter/widgets/container_sized.dart";
 import "package:learningflutter/widgets/dimissible.dart";
 import "package:learningflutter/widgets/drawer.dart";
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.deepPurple
       ),
-      home: DrawerWidget(),
+      home: AlertWidget(),
     );
   }
 }
