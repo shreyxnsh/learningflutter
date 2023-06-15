@@ -4,6 +4,7 @@ import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:learningflutter/widgets/alert.dart';
 import 'package:learningflutter/widgets/bottomsheet.dart';
 import 'package:learningflutter/widgets/dimissible.dart';
+import 'package:learningflutter/widgets/dropdown.dart';
 import 'package:learningflutter/widgets/snackbar.dart';
 
 
@@ -36,7 +37,7 @@ void onItemTapped(int index){
       body: PageView(
         controller: pageController,
         children: [
-          AlertWidget(),
+          DropDownListWidget(),
           DismissibleWidget(),
           BottomSheetWidget(),
           SnackBarWidget()
